@@ -1,0 +1,41 @@
+aside.menu-area {
+  background-color: var(--bg-dark);
+  box-shadow: 2px 0 10px 0 rgba(0 0 0 0.12), 2px 0 25px 0 rgba(0 0 0 0.9);
+}
+
+.menu a {
+  display: block;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 300;
+  padding: 15px;
+  transition: background 0.4s;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: linear-gradient(135deg, #129584 0%, #06455d 100%);
+}
+
+.menu i {
+  margin-right: 4px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .menu a {
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .menu {
+    height: 100%;
+    justify-content: space-around;
+  }
+}

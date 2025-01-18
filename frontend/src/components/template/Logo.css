@@ -1,0 +1,27 @@
+aside.logo {
+  font-size: 24px;
+  background-color: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 1px solid #0004;
+}
+
+aside.logo a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+span {
+  color: #23b58e;
+  margin-left: 2px;
+}
+
+@media (max-width: 576px) {
+  aside.logo {
+    font-size: 38px;
+  }
+}
